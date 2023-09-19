@@ -10,6 +10,10 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("This is the title of the application "),
+      ),
+    );
   }
 }
