@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+
+class ReviewGridPhotos extends StatefulWidget {
+  const ReviewGridPhotos({super.key});
+
+  static const String route = "/review_grid_list";
+
+  @override
+  State<ReviewGridPhotos> createState() => _ReviewGridPhotosState();
+}
+
+class _ReviewGridPhotosState extends State<ReviewGridPhotos> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
